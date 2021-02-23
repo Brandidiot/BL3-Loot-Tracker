@@ -90,7 +90,7 @@ namespace BL3_Loot_Tracker
             var player = new SoundPlayer(@".\Stop.wav");
             player.Play();
 
-            _started = false;
+            _started = false; 
             _stopWatch.Stop();
         }
 
