@@ -6,3 +6,7 @@ Keep track of the speed of you boss runs and the major items that each boss drop
 insert - Start timer
 home - Stop timer
 Page Up - Reset timer
+
+TO DO:
+-Create delete functionality
+-Make it prettier
