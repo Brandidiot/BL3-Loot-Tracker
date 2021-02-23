@@ -30,6 +30,7 @@ namespace BL3_Loot_Tracker
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BL3LT));
             this.Start_Btn = new System.Windows.Forms.Button();
             this.Stop_Btn = new System.Windows.Forms.Button();
             this.Reset_Btn = new System.Windows.Forms.Button();
@@ -142,7 +143,6 @@ namespace BL3_Loot_Tracker
             // 
             // bindingNavigatorPositionItem
             // 
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(100, 23);
             // 
@@ -267,6 +267,7 @@ namespace BL3_Loot_Tracker
             this.Controls.Add(this.Stop_Btn);
             this.Controls.Add(this.Start_Btn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "BL3LT";
             this.Text = "BL3 Loot Tracker";
             this.ResumeLayout(false);
